@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-11 12:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: pasargad/apps.py:8
+msgid "Pasargad"
+msgstr "پاسارگاد"
+
+#: pasargad/models.py:10 pasargad/models.py:52
+msgid "Payer"
+msgstr "پرداخت کننده"
+
+#: pasargad/models.py:12
+msgid "Amount (IRR)"
+msgstr "مقدار (ریال)"
+
+#: pasargad/models.py:12
+msgid "Payment amount in IRR."
+msgstr "مقدار پرداختی (ریال)"
+
+#: pasargad/models.py:13
+msgid "Successful"
+msgstr "موفقیت آمیز"
+
+#: pasargad/models.py:14
+msgid "Transaction Code"
+msgstr "کد تراکنش"
+
+#: pasargad/models.py:15
+msgid "Bank Tref"
+msgstr "کد تراکنش بانک"
+
+#: pasargad/models.py:18
+msgid "Log Text"
+msgstr "متن لاگ"
+
+#: pasargad/models.py:19
+msgid "Some logs as simple text, showing payment status."
+msgstr ""
+"چند لاگ از مراحل تایید پرداخت که نشان دهنده نتیجه هر مرحله یا خطاهای احتمالی "
+"است."
+
+#: pasargad/models.py:21
+msgid "Created at"
+msgstr "ایجاد شده در"
+
+#: pasargad/models.py:22
+msgid "Updated at"
+msgstr "بروز شده در"
+
+#: pasargad/models.py:25
+msgid "Payment Record"
+msgstr "رکورد پرداخت"
+
+#: pasargad/models.py:26
+msgid "Payment Records"
+msgstr "رکوردهای پرداخت"
+
+#: pasargad/serializers.py:39
+#, python-brace-format
+msgid "You chan't pay less than {0} rials."
+msgstr "شما نمی توانید کمتر از {0} ریال پرداخت کنید."
+
+#: pasargad/serializers.py:42
+#, python-brace-format
+msgid "You can't pay more than {0} rials."
+msgstr "شما نمی توانید بیشتر از {0} ریال پرداخت کنید."
+
+#: pasargad/serializers.py:65
+msgid "Invalid transaction code!"
+msgstr "کد تراکنش نامعتبر!"
+
+#: pasargad/serializers.py:76
+msgid "Payment amount (Rials)."
+msgstr "مقدار پرداختی (ریال)"
+
+#: pasargad/serializers.py:127 pasargad/serializers.py:173
+msgid "Error in data!"
+msgstr "خطا در اطلاعات!"
+
+#: pasargad/serializers.py:130
+msgid "Invalid code!"
+msgstr "کد نامعتبر!"
+
+#: pasargad/serializers.py:136
+msgid "Invalid payment request!"
+msgstr "درحواست پرداخت نامعتبر!"
+
+#: pasargad/serializers.py:181
+msgid "Error in payment. Please call the support."
+msgstr "خطا در پرداخت! لطفا با پشتیبانی تماس بگیرید!"
+
+#: pasargad/serializers.py:184
+msgid "Payment record already closed successfully."
+msgstr "این پرداخت قبلا با موفقیت به پایان رسیده است."
