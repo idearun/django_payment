@@ -6,7 +6,7 @@ Django==1.11.6
 djangorestframework==3.7.0
 idna==2.6
 itypes==1.1.0
-Jinja2==2.9.6
+Jinja2==2.11.3
 MarkupSafe==1.0
 pycryptodome==3.4.7
 pytz==2017.2
